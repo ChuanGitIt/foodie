@@ -6,11 +6,11 @@ public class Dish {
     private String name;
     private String description;
     private List<String> ingredients;
+    private Recipe recipe;
 
     public Dish(String name, String description) {
         this.name = name;
         this.description = description;
-        this.price = price;
     }
 
     public String getName() {
@@ -27,13 +27,5 @@ public class Dish {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 }
